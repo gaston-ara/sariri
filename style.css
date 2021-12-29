@@ -291,6 +291,12 @@ footer{
     .portada{
         line-height: 40px;
     }
+    .texto-portada h2{
+        font-size: 1rem;
+    }
+    .dinamic-txts li{
+        font-size: 1.1rem;
+    }
     .dinamic-txts li span::after{
         top: 1px;
     }
@@ -333,20 +339,6 @@ footer{
         margin-bottom: 15px;
     }
 }
-/* @media only screen and (max-width: 576px){
-    .png-container{
-        max-width: 100%;
-        padding: 0 5vw;
-    }
-    .whoweare{
-        max-width: 80%;
-        padding: 20px 0;
-    }
-    .whoweare p{
-        max-width: 100%;
-        padding: 0 5vw;
-    }
-} */
 @media only screen and (max-width: 768px) {
     .texto-portada h2{
         font-size: 1.5rem;
