@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Sariri Digital</title>
+</head>
+
+<body>
+    <script>AOS.init();</script>
+    <header>
+        <nav class="navbar">
+            <h1><a href="index.html">Sariri Digital</a> </h1>
+            <label for="toggle">&#9776</label>
+            <input type="checkbox" id="toggle">
+            <div class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="#about">Nosotros</a>
+                <a href="#service">Servicio</a>
+                <a href="#contact">Contacto</a>
+            </div>
+        </nav>
+    </header>
+    <section>
+        <div class="portada">
+            <div class="texto-portada">
+                <h2>Te ayudamos a </h2>
+                <div class="wrapper">
+                    <div class="static-txt">
+                        <ul class="dinamic-txts">
+                            <li><span>Darle visibilidad a tu negocio</span></li>
+                            <li><span>Comunicarte con tus clientes</span></li>
+                            <li><span>Facilitar tu trabajo</span></li>
+                            <li><span>Ampliar tus horizontes</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <main>
+        <div class="inicio" id="about">
+            <div class="container-inicio">
+                <div class="png-container">
+                    <img class="png" data-aos="fade-right" src="/images/image12.png" alt="">
+                </div>
+                <div class="whoweare" data-aos="fade-left">
+                    <p>Somos una agencia especializada en <b>desarrollo de sitios web</b> para todo tipo de <b>empresas o
+                        emprendedores.</b>
+                    </p>
+                    <p>
+                        Construimos tu sitio de acuerdo a tus necesidades y a la de tu comunidad. Además
+                        desarrollamos
+                        <b>herramientas</b> pensadas para <b>simplificar tu trabajo</b> a partir de los recursos que pueden ofrecer
+                        las
+                        tecnologias de hoy.
+                    </p>
+                </div>
+            </div>
+            <div class="product" id="service">
+                <h2 data-aos="fade-right">Nuestros sitios web</h2>
+                <div class="container-product">
+                    <div class="description" data-aos="fade-up">
+                        <div class="icon">
+                            <img src="images/responsive.png" alt="">
+                        </div>
+                        <div class="text-description">
+                            <h3>Responsive</h3>
+                            <p>Diseño y desarrollo Responsive para que tu sitio web sea adaptable a cualquier
+                                dispositivo.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="description" data-aos="fade-up">
+                        <div class="icon">
+                            <img src="images/seo.png" alt="">
+                        </div>
+                        <div class="text-description">
+                            <h3>SEO</h3>
+                            <p>Optimizacion SEO para que tus clientes puedan encontrarte facilmente por internet.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="description" data-aos="fade-up">
+                        <div class="icon">
+                            <img src="images/diseno-grafico.png" alt="">
+                        </div>
+                        <div class="text-description">
+                            <h3>Moderno</h3>
+                            <p>Diseño moderno y atractivo para que tus clientes disfruten de tu sitio y pasen mas
+                                tiempo con tu negocio.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="description" data-aos="fade-up">
+                        <div class="icon">
+                            <img src="images/diseno-ux.png" alt="">
+                        </div>
+                        <div class="text-description">
+                            <h3>Organizado</h3>
+                            <p>Estructura de contenido organizada para que tus clientes puedan navegar facilmente
+                                por tu sitio.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="description" data-aos="fade-up">
+                        <div class="icon">
+                            <img src="images/herramientas.png" alt="">
+                        </div>
+                        <div class="text-description">
+                            <h3>Herramientas</h3>
+                            <p>Te damos la posibilidad de agregar herramientas informáticas que suman
+                                funcionalidades a tu página y pueden ser muy utiles para tus clientes.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="contacto" id="contact">
+            <div class="form-container">
+                <form action="https://formsubmit.co/gaston.ara.o@gmail.com" method="POST" class="form-contact"
+                    data-aos="fade-up" action="">
+                    <h2 data-aos="fade-right">Hacenos tu consulta</h2>
+                    <label class="label-form" for="nombre">Nombre</label>
+                    <input class="form-input" type="text" id="nombre" name="name">
+                    <label class="label-form" for="email">Email</label>
+                    <input class="form-input" type="email" id="email" name="email">
+                    <label class="label-form" for="mensaje">Mensaje</label>
+                    <textarea class="textarea-form" id="mensaje" cols="30" rows="10" name="message"></textarea>
+                    <input class="form-btn" type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div>
+            <p>Gastón Aragón 2021</p>
+        </div>
+    </footer>
+
+</body>
+
+</html>
