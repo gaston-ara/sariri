@@ -341,10 +341,10 @@ footer{
 }
 @media only screen and (max-width: 768px) {
     .texto-portada h2{
-        font-size: 1.5rem;
+        font-size: 1rem;
     }
     .dinamic-txts li{
-        font-size: 2rem;
+        font-size: 1.1rem;
     }
     .png-container{
         max-width: 100%;
